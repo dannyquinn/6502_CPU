@@ -12,7 +12,7 @@ LOOP:
   LDA #$AA
   STA $6000
 
-JMP LOOP
+  JMP LOOP
 
 .segment "RESETVEC"
 
