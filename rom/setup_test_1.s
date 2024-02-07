@@ -1,4 +1,4 @@
-.setcpu "62C02" 
+.setcpu "65C02" 
 .segment "ROM"
 
 RESET:
