@@ -1,17 +1,17 @@
 ## BIOS Build 
 
-# Compile 
+### Compile 
 
   ca65 file.s 
 
-# Link
+### Link
 
   ld65 -C bios.cfg file.o 
 
-# Check image 
+### Check image 
 
   hexdump -C a.out
   
-# Write to EPROM
+### Write to EPROM
 
   minipro -p AT28C256 -w a.out 
